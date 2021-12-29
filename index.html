@@ -4,191 +4,106 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>NMG v2</title>
+    <title>NMGv3</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Header-with-HTML5-Video-Background.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/section.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/topbar.css">
+    <link rel="stylesheet" href="assets/css/video.css">
+    <link rel="stylesheet" href="assets/css/why-us.css">
 </head>
 
 <body>
     <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
         <div class="container d-flex">
-            <div class="contact-info me-auto"><i class="fa fa-envelope"></i><a href="mailto:contact@example.com">Questions@thenealgroupllc.com</a><i class="fa fa-phone"></i><a href="tel:3018426134">301-842-6134</a></div>
-            <div class="social-links"><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></div>
+            <div class="contact-info me-auto"><i class="fa fa-envelope"></i><a href="mailto:contact@example.com">Questions@thenealgroup.com</a><i class="fa fa-phone"></i><a href="tel:3018426134">301-842-61134</a></div>
+            <div class="cta"><a href="#">Free Quote</a></div>
         </div>
     </div>
     <header id="header" class="fixed-top">
-        <nav class="navbar navbar-light navbar-expand-lg nav-menu">
-            <div class="container"><a class="navbar-brand" href="#"><img id="Logo" src="assets/img/Logos/NMG.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <nav class="navbar navbar-light navbar-expand-lg navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">The Neal Management Group</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section id="hero" class="d-flex align-items-center hero">
-        <div class="overlay"><video width="560" height="315" preload="auto" autoplay="" loop="" muted="">
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="overlay"><video class="video-hero" autoplay="" loop="" muted="">
                 <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-            </video>
-            <div class="video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <div class="source" src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"></div>
-            </div>
-        </div>
+            </video></div>
         <div class="container">
-            <h1>The Neal Management Group</h1>
-            <h2>We specialize in Regulatory Compliance, Operational Efficiency, and Laboratory Science<br></h2>
-            <div class="d-flex"><a class="btn-get-started scrollto" href="#about">Learn More</a></div>
+            <h1>The Neal Management&nbsp;Group<br></h1>
+            <h2>Health Care Consultant Organization<br></h2>
+            <div class="d-flex align-items-center"><i class="fa fa-arrow-right bx bxs-right-arrow-alt get-started-icon"></i><a class="btn-get-started scrollto" href="services.html">Discover Our Services</a></div>
         </div>
     </section>
-    <main id="main"></main>
-    <section id="services" class="featured-services">
+    <section id="why-us" class="why-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-medkit"></i>
-                            <h4 class="title"><a href="services.html"><br><strong>Quality Management</strong><br></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
+                <div class="col-lg-5 col-xl-5">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="content">
+                        <h3>Who Are We?</h3>
+                        <p>The Neal Management Group, LLC (NMG) is a Health Care Management Consulting organization. We are highly skilled in ISO principles and possess over 30 years of experience in the Good Manufacturing Practices and Quality Management.<br></p>
+                        <div class="text-center"><a class="more-btn" href="about.html">Learn More About Us&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-medkit"></i>
-                            <h4 class="title"><a href="services.html"><br><strong>Regulatory Compliance</strong><br></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-medkit"></i>
-                            <h4 class="title"><a href="services.html"><br><strong>Laboratory Consulting</strong><br></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box">
-                        <div class="icon"><i class="fa fa-medkit"></i>
-                            <h4 class="title"><a href="services.html"><br><strong>Physician Medical Practice and POL Consulting</strong><br></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about" class="about section-bg">
-        <div class="container">
-            <div class="section-title">
-                <h2>About</h2>
-                <h3>Find Out More About Us</h3>
-                <p>We are highly skilled in ISO principles and possess over 30 years of experience in the Good Manufacturing Practices and Quality Management.<br></p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="assets/img/about2.png"></div>
-                <div class="col-md-6 content d-flex flex-column justify-content-center">
-                    <h3>The Neal Management Group, LLC (NMG) is a Health Care Management Consulting organization.<br></h3>
-                    <p>The organization is based in Georgia and&nbsp;founded in 2004 with a primary focus of helping organizations maintain and sustain regulatory compliance in the healthcare industry. We are certified via the State of Georgia as a Disadvantage Business Enterprise (DBE) and a Minority Business Enterprise (MBE).&nbsp;<br></p>
-                    <ul>
-                        <li><i class="fas fa-school bx bx-images"></i>
-                            <div>
-                                <h5>Dr. Lisa M Pinkney is the President and Chief Executive Officer of the Neal Management Group, LLC.<br></h5>
-                                <p>She is a consummate professional, entrepreneur, and facilitator with a vast amount of experience that spans strategic planning, project management, quality management, regulatory compliance, auditing, and performance management. Dr. Pinkney's career reflects success in the public and private sectors.<br></p>
-                            </div>
-                        </li>
-                        <li><i class="fas fa-school bx bx-images"></i>
-                            <div>
-                                <h5>In 2013, Dr. Pinkney earned a Doctorate Degree from the University of Maryland University College in Management.<br></h5>
-                                <p>Before that, she earned a Master’s of Science from the University of Maryland University College in Health Care Administration and a Bachelor of Science from the Medical College of&nbsp; Virginia / Virginia Commonwealth University with emphasis on Medical Technology. Dr. Pinkney also holds&nbsp; a certificate as a Specialist in Blood Bank from the National Institutes of Health (NIH) and a graduate certificate from Keller Graduate School of Management with emphasis on Project Management with emphasis on Project Management.<br></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>ContacT</h2>
-                <h3>Contact</h3>
-                <p><strong>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</strong></p>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-xxl-6">
-                        <div class="info-box mb-4"><i class="fa fa-map-marker bx bx-map"></i>
-                            <h3>Our Address</h3>
-                            <p>2860 W Spring St, Smyrna, GA 30080<br></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xxl-3">
-                        <div class="info-box mb-4"><i class="fa fa-envelope-o"></i>
-                            <h3>Email Us</h3>
-                            <p>Questions@thenealgroupllc.com<br></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xxl-3">
-                        <div class="info-box mb-4"><i class="fa fa-phone"></i>
-                            <h3>Contact Us</h3>
-                            <p>301-842-6134<br></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxVu0SfPo7i2Q2DNNy6b-jHYHsvLmUspA&amp;q=2860+W+Spring+St%2C+Smyrna%2C+GA+30080&amp;zoom=11" width="100%" height="400"></iframe></div>
-                    <div class="col-md-6">
-                        <form class="php-email-form">
-                            <div class="row">
-                                <div class="col-md-6 form-group"><input class="form-control" type="text" id="Name" name="name" placeholder="Your Name"></div>
-                                <div class="col-md-6 form-group"><input class="form-control" type="text" id="email" name="Email" placeholder="Your Email"></div>
-                                <div class="col">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="form-group"><input class="form-control" type="text" id="subject" placeholder="subject"></div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group"><textarea class="form-control" name="message" required="" placeholder="Enter your message here" rows="6"></textarea></div>
-                                    <div class="text-center"><button class="btn btn-primary" type="submit">Send Message</button></div>
+                <div class="col-lg-7 col-xl-9">
+                    <div class="icon-boxes d-flex flex-column justify-content-center">
+                        <div class="row">
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div data-aos="fade-right" data-aos-delay="300" class="icon-box mt-4 mt-xl-0" style="box-shadow: inset 0px 0px 1px 1px rgb(210,210,210);">
+                                    <h4><strong>Quality Management</strong><br></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Asperiores dolores sed et.<br></p>
                                 </div>
                             </div>
-                        </form>
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div data-aos="fade-right" data-aos-delay="300" class="icon-box mt-4 mt-xl-0" style="box-shadow: inset 0px 0px 1px 1px rgb(210,210,210);">
+                                    <h4><strong>Laboratory Consulting</strong><br></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Asperiores dolores sed et.<br></p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div data-aos="fade-right" data-aos-delay="300" class="icon-box mt-4 mt-xl-0" style="box-shadow: inset 0px 0px 1px 1px rgb(210,210,210);">
+                                    <h4><strong>Physician Medical Practice&nbsp;</strong><br></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Asperiores dolores sed et.<br></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer-basic">
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Home</a></li>
-            <li class="list-inline-item"><a href="#">Services</a></li>
-            <li class="list-inline-item"><a href="#">About Us</a></li>
-            <li class="list-inline-item"><a href="#">Contact Us</a></li>
-        </ul>
-        <p class="copyright">The Neal Management Group&nbsp;© 2021</p>
+        <p class="copyright">The Neal Management Group&nbsp;© 2022</p>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
