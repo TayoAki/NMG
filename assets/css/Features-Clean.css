@@ -72,3 +72,9 @@
   margin-left: -65px;
 }
 
+@media (max-width: 500px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
+

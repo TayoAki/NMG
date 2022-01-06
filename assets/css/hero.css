@@ -86,3 +86,15 @@
   background: rgb(31,72,126);
 }
 
+.why-us a {
+  color: #313437;
+}
+
+.topbar-link:hover {
+  color: #ffffff;
+}
+
+.cta {
+  /*background: #000000;*/
+}
+
