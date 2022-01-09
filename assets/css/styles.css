@@ -1,14 +1,4 @@
-#topbar a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#topbar a {
   color: #ffffff;
   text-decoration: none;
 }
