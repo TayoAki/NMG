@@ -82,3 +82,8 @@ canvas {
   background: #3356ab;
 }
 
+#topbar a:hover {
+  color: #f8f8f8;
+  text-decoration: underline;
+}
+
